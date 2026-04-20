@@ -113,17 +113,17 @@ The project includes a reusable prediction script that:
 1. Clone the repository
 
 2. Install dependencies:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 3. Run the prediction script:
-cd app
-python predict.py
+- cd app
+- python predict.py
 4. Enter customer data when promoted:
-Enter total orders:
-Enter total spent:
-Enter average order value:
-Enter country:
+- Enter total orders:
+- Enter total spent:
+- Enter average order value:
+- Enter country:
 5. Get prediction result: 
-Prediction: High Value / Low Value
+- Prediction: High Value / Low Value
 
 ---
 
@@ -140,18 +140,18 @@ Prediction: High Value / Low Value
 ## Project Structure
 customer-classification-ml/
 
-│── model/
-│   ├── model.pkl
-│   ├── encoder.pkl
+- │── model/
+- │   ├── model.pkl
+- │   ├── encoder.pkl
 
-│── app/
-│   ├── predict.py
+- │── app/
+- │   ├── predict.py
 
-│── notebooks/
-│   ├── customer_classification.ipynb
+- │── notebooks/
+- │   ├── customer_classification.ipynb
 
-│── requirements.txt
-│── README.md
+- │── requirements.txt
+- │── README.md
 
 ---
 
@@ -271,17 +271,17 @@ Das Projekt enthält ein Skript, das:
 1. Repository klonen
 
 2. Abhängigkeiten installieren:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 3. Skript ausführen:
-cd app
-python predict.py
+- cd app
+- python predict.py
 4. Eingaben machen:
-Anzahl der Bestellungen:
-Gesamtausgaben:
-Durchschnittlicher Bestellwert:
-Land:
+- Anzahl der Bestellungen:
+- Gesamtausgaben:
+- Durchschnittlicher Bestellwert:
+- Land:
 5. Ergebnis:
-Vorhersage: High Value / Low Value
+- Vorhersage: High Value / Low Value
 
 ---
 
